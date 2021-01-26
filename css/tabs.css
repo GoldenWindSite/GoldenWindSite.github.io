@@ -33,7 +33,7 @@
 */
 
 .resp-tabs-list {
-	padding: 6.65% 0px!important;
+	padding: 2.9% 0px!important;
 }
 
 .VerticalTab.tabs_ver_6.resp-vtabs ul.resp-tabs-list {
@@ -60,7 +60,6 @@
 .VerticalTab.tabs_ver_6 .resp-tabs-list li {
 	margin: 10px 0px;
 	text-align: center;
-	display: inline-flex;
 	align-content: center;
 	align-items: center;
 	justify-content: center;

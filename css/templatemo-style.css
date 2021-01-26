@@ -52,7 +52,6 @@ body {
     -webkit-animation: rotatee 2.0s infinite linear;
     animation: rotatee 2.0s infinite linear;
 }
-.preloader .spinner .dot1,
 .preloader .spinner .dot2 {
     width: 60%;
     height: 60%;
@@ -112,7 +111,7 @@ body {
     overflow: hidden;
  }
  .home-container {
-  margin-top: 10%;
+  margin-top: 5%;
   background-color: #fff;
  }
 
@@ -196,7 +195,7 @@ body {
 .about-container {
   text-align: center;
   background-color: #fff;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .about-container h2 {
@@ -218,7 +217,7 @@ body {
   width: 100px;
   height: 3px;
   background-color: #121212;
-  margin: 15px auto 20px auto;
+  margin: 5px auto 10px auto;
 }
 
 .about-container p {
@@ -244,7 +243,7 @@ body {
 
 .projects-container {
   background-color: #fff;
-  margin-top: 10%;
+  margin-top: 5%;
   padding: 40px 30px 0px  40px;
 }
 
