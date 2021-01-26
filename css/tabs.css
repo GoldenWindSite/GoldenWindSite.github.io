@@ -23,11 +23,6 @@
     border-radius: 1px;
 }
 
-.nicescroll-cursors {
-	
-} 
-
-
 /*
 --------------- Tabs Style ------------------
 */
@@ -59,6 +54,7 @@
 }
 .VerticalTab.tabs_ver_6 .resp-tabs-list li {
 	margin: 10px 0px;
+	border-radius: 10px;
 	text-align: center;
 	align-content: center;
 	align-items: center;

@@ -12,7 +12,7 @@
 				active_Hash: false,
                 tabidentify: '',
                 activetab_bg: 'white',
-                inactive_bg: '#F5F5F5',
+                inactive_bg: '#e0e0e0',
                 active_border_color: '#c1c1c1',
                 active_content_border_color: '#c1c1c1',
                 activate: function () {
