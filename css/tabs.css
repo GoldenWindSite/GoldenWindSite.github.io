@@ -1,9 +1,4 @@
 /*
-*  Table of Contents:
-*
-*/
-
-/*
 =====================================================
 --------------- VerticalTab Tabs -----------------
 =====================================================
@@ -115,22 +110,22 @@ h2.resp-accordion {
 	font-size: 14px;
 	font-weight: 700;
 	text-align: center;
-	text-transform: uppercase;
 	color: #121212;
-	margin: 20px 30px;
+	margin: 10px 30px;
 	list-style: none;
 	cursor: pointer;
 	background: #fff!important;
 	border: 0;
 	cursor: pointer;
-	padding: 20px 15px;
+	padding: 0px 0px;
 	border-left: 0 !important;
 	border-right: 0 !important;
+	border-radius: 10px;
 }
 h2.resp-tab-active {
 	margin-bottom: 0px;
 	border: none!important;
-	padding: 20px 15px!important;
+	padding: 0px 0px!important;
 	background: #f78b26!important;
 }
 h2.resp-accordion:first-child {

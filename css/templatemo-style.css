@@ -31,7 +31,6 @@ body {
 ===============================================
 */
 
-
 .preloader {
     position: fixed;
     top: 0;
@@ -204,7 +203,7 @@ body {
   letter-spacing: 0.1px;
   color: #121212;
   text-transform: uppercase;
-  margin: 25px;
+  margin: 20px;
   margin-bottom: 0px;
   font-weight: 900;
 }
