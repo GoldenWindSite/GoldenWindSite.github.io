@@ -31,7 +31,6 @@ if (typeof jQuery === 'undefined') {
     return false // explicit for ie8 (  ._.)
   }
 
-  // http://blog.alexmaccaw.com/css-transitions
   $.fn.emulateTransitionEnd = function (duration) {
     var called = false
     var $el = this
@@ -61,7 +60,6 @@ if (typeof jQuery === 'undefined') {
   'use strict';
 
   // ALERT CLASS DEFINITION
-  // ======================
 
   var dismiss = '[data-dismiss="alert"]'
   var Alert   = function (el) {
@@ -109,7 +107,6 @@ if (typeof jQuery === 'undefined') {
 
 
   // ALERT PLUGIN DEFINITION
-  // =======================
 
   function Plugin(option) {
     return this.each(function () {
@@ -128,7 +125,6 @@ if (typeof jQuery === 'undefined') {
 
 
   // ALERT NO CONFLICT
-  // =================
 
   $.fn.alert.noConflict = function () {
     $.fn.alert = old
@@ -137,7 +133,6 @@ if (typeof jQuery === 'undefined') {
 
 
   // ALERT DATA-API
-  // ==============
 
   $(document).on('click.bs.alert.data-api', dismiss, Alert.prototype.close)
 
@@ -146,7 +141,6 @@ if (typeof jQuery === 'undefined') {
   'use strict';
 
   // BUTTON PUBLIC CLASS DEFINITION
-  // ==============================
 
   var Button = function (element, options) {
     this.$element  = $(element)
@@ -204,7 +198,6 @@ if (typeof jQuery === 'undefined') {
 
 
   // BUTTON PLUGIN DEFINITION
-  // ========================
 
   function Plugin(option) {
     return this.each(function () {
@@ -226,7 +219,6 @@ if (typeof jQuery === 'undefined') {
 
 
   // BUTTON NO CONFLICT
-  // ==================
 
   $.fn.button.noConflict = function () {
     $.fn.button = old
@@ -235,7 +227,6 @@ if (typeof jQuery === 'undefined') {
 
 
   // BUTTON DATA-API
-  // ===============
 
   $(document)
     .on('click.bs.button.data-api', '[data-toggle^="button"]', function (e) {
@@ -254,7 +245,6 @@ if (typeof jQuery === 'undefined') {
   'use strict';
 
   // CAROUSEL CLASS DEFINITION
-  // =========================
 
   var Carousel = function (element, options) {
     this.$element    = $(element)
@@ -417,7 +407,6 @@ if (typeof jQuery === 'undefined') {
 
 
   // CAROUSEL PLUGIN DEFINITION
-  // ==========================
 
   function Plugin(option) {
     return this.each(function () {
@@ -440,7 +429,6 @@ if (typeof jQuery === 'undefined') {
 
 
   // CAROUSEL NO CONFLICT
-  // ====================
 
   $.fn.carousel.noConflict = function () {
     $.fn.carousel = old
@@ -449,7 +437,6 @@ if (typeof jQuery === 'undefined') {
 
 
   // CAROUSEL DATA-API
-  // =================
 
   var clickHandler = function (e) {
     var href
@@ -486,7 +473,6 @@ if (typeof jQuery === 'undefined') {
   'use strict';
 
   // COLLAPSE PUBLIC CLASS DEFINITION
-  // ================================
 
   var Collapse = function (element, options) {
     this.$element      = $(element)
@@ -639,7 +625,6 @@ if (typeof jQuery === 'undefined') {
 
 
   // COLLAPSE PLUGIN DEFINITION
-  // ==========================
 
   function Plugin(option) {
     return this.each(function () {
@@ -660,7 +645,6 @@ if (typeof jQuery === 'undefined') {
 
 
   // COLLAPSE NO CONFLICT
-  // ====================
 
   $.fn.collapse.noConflict = function () {
     $.fn.collapse = old
@@ -669,7 +653,6 @@ if (typeof jQuery === 'undefined') {
 
 
   // COLLAPSE DATA-API
-  // =================
 
   $(document).on('click.bs.collapse.data-api', '[data-toggle="collapse"]', function (e) {
     var $this   = $(this)
@@ -689,7 +672,6 @@ if (typeof jQuery === 'undefined') {
   'use strict';
 
   // DROPDOWN CLASS DEFINITION
-  // =========================
 
   var backdrop = '.dropdown-backdrop'
   var toggle   = '[data-toggle="dropdown"]'
@@ -798,7 +780,6 @@ if (typeof jQuery === 'undefined') {
 
 
   // DROPDOWN PLUGIN DEFINITION
-  // ==========================
 
   function Plugin(option) {
     return this.each(function () {
@@ -817,7 +798,6 @@ if (typeof jQuery === 'undefined') {
 
 
   // DROPDOWN NO CONFLICT
-  // ====================
 
   $.fn.dropdown.noConflict = function () {
     $.fn.dropdown = old
@@ -826,7 +806,6 @@ if (typeof jQuery === 'undefined') {
 
 
   // APPLY TO STANDARD DROPDOWN ELEMENTS
-  // ===================================
 
   $(document)
     .on('click.bs.dropdown.data-api', clearMenus)
@@ -842,7 +821,6 @@ if (typeof jQuery === 'undefined') {
   'use strict';
 
   // MODAL CLASS DEFINITION
-  // ======================
 
   var Modal = function (element, options) {
     this.options        = options
@@ -1103,7 +1081,6 @@ if (typeof jQuery === 'undefined') {
 
 
   // MODAL PLUGIN DEFINITION
-  // =======================
 
   function Plugin(option, _relatedTarget) {
     return this.each(function () {
@@ -1124,7 +1101,6 @@ if (typeof jQuery === 'undefined') {
 
 
   // MODAL NO CONFLICT
-  // =================
 
   $.fn.modal.noConflict = function () {
     $.fn.modal = old
@@ -1133,7 +1109,6 @@ if (typeof jQuery === 'undefined') {
 
 
   // MODAL DATA-API
-  // ==============
 
   $(document).on('click.bs.modal.data-api', '[data-toggle="modal"]', function (e) {
     var $this   = $(this)
@@ -1158,7 +1133,6 @@ if (typeof jQuery === 'undefined') {
   'use strict';
 
   // TOOLTIP PUBLIC CLASS DEFINITION
-  // ===============================
 
   var Tooltip = function (element, options) {
     this.type       =
@@ -1587,7 +1561,6 @@ if (typeof jQuery === 'undefined') {
 
 
   // TOOLTIP PLUGIN DEFINITION
-  // =========================
 
   function Plugin(option) {
     return this.each(function () {
@@ -1614,7 +1587,6 @@ if (typeof jQuery === 'undefined') {
 
 
   // TOOLTIP NO CONFLICT
-  // ===================
 
   $.fn.tooltip.noConflict = function () {
     $.fn.tooltip = old
@@ -1627,7 +1599,6 @@ if (typeof jQuery === 'undefined') {
   'use strict';
 
   // POPOVER PUBLIC CLASS DEFINITION
-  // ===============================
 
   var Popover = function (element, options) {
     this.init('popover', element, options)
@@ -1646,7 +1617,6 @@ if (typeof jQuery === 'undefined') {
 
 
   // NOTE: POPOVER EXTENDS tooltip.js
-  // ================================
 
   Popover.prototype = $.extend({}, $.fn.tooltip.Constructor.prototype)
 
@@ -1698,7 +1668,6 @@ if (typeof jQuery === 'undefined') {
 
 
   // POPOVER PLUGIN DEFINITION
-  // =========================
 
   function Plugin(option) {
     return this.each(function () {
@@ -1725,7 +1694,6 @@ if (typeof jQuery === 'undefined') {
 
 
   // POPOVER NO CONFLICT
-  // ===================
 
   $.fn.popover.noConflict = function () {
     $.fn.popover = old
@@ -1738,7 +1706,6 @@ if (typeof jQuery === 'undefined') {
   'use strict';
 
   // SCROLLSPY CLASS DEFINITION
-  // ==========================
 
   function ScrollSpy(element, options) {
     var process  = $.proxy(this.process, this)
@@ -1861,7 +1828,6 @@ if (typeof jQuery === 'undefined') {
 
 
   // SCROLLSPY PLUGIN DEFINITION
-  // ===========================
 
   function Plugin(option) {
     return this.each(function () {
@@ -1881,7 +1847,6 @@ if (typeof jQuery === 'undefined') {
 
 
   // SCROLLSPY NO CONFLICT
-  // =====================
 
   $.fn.scrollspy.noConflict = function () {
     $.fn.scrollspy = old
@@ -1890,7 +1855,6 @@ if (typeof jQuery === 'undefined') {
 
 
   // SCROLLSPY DATA-API
-  // ==================
 
   $(window).on('load.bs.scrollspy.data-api', function () {
     $('[data-spy="scroll"]').each(function () {
@@ -1905,7 +1869,6 @@ if (typeof jQuery === 'undefined') {
   'use strict';
 
   // TAB CLASS DEFINITION
-  // ====================
 
   var Tab = function (element) {
     this.element = $(element)
@@ -2005,7 +1968,6 @@ if (typeof jQuery === 'undefined') {
 
 
   // TAB PLUGIN DEFINITION
-  // =====================
 
   function Plugin(option) {
     return this.each(function () {
@@ -2024,7 +1986,6 @@ if (typeof jQuery === 'undefined') {
 
 
   // TAB NO CONFLICT
-  // ===============
 
   $.fn.tab.noConflict = function () {
     $.fn.tab = old
@@ -2033,7 +1994,6 @@ if (typeof jQuery === 'undefined') {
 
 
   // TAB DATA-API
-  // ============
 
   var clickHandler = function (e) {
     e.preventDefault()
@@ -2050,7 +2010,6 @@ if (typeof jQuery === 'undefined') {
   'use strict';
 
   // AFFIX CLASS DEFINITION
-  // ======================
 
   var Affix = function (element, options) {
     this.options = $.extend({}, Affix.DEFAULTS, options)
@@ -2153,7 +2112,6 @@ if (typeof jQuery === 'undefined') {
 
 
   // AFFIX PLUGIN DEFINITION
-  // =======================
 
   function Plugin(option) {
     return this.each(function () {
@@ -2173,7 +2131,6 @@ if (typeof jQuery === 'undefined') {
 
 
   // AFFIX NO CONFLICT
-  // =================
 
   $.fn.affix.noConflict = function () {
     $.fn.affix = old
@@ -2182,7 +2139,6 @@ if (typeof jQuery === 'undefined') {
 
 
   // AFFIX DATA-API
-  // ==============
 
   $(window).on('load', function () {
     $('[data-spy="affix"]').each(function () {

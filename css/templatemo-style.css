@@ -7,18 +7,6 @@ html {
   -moz-background-size: cover;
   background-size: cover;
 }
-/*
-===============================================
---------------- 1. CSS Inits ------------------
-===============================================
-*/
-
-body {
-	font-family: "genshin", sans-serif;
-   }
-  </style>
-   </head>
-}
 
 .page_wrapper {
     width: 100%;
@@ -26,9 +14,7 @@ body {
 }
 
 /*
-===============================================
---------------- 2. PRELOADER ------------------
-===============================================
+PRELOADER
 */
 
 .preloader {
@@ -100,9 +86,7 @@ body {
 }
 
 /*
-========================================
------------ HOME STYLE -----------------
-========================================
+HOME STYLE
 */
 
  .resp-tab-content {
@@ -186,9 +170,7 @@ body {
   }
 
 /*
-========================================
------------ ABOUT STYLE -----------------
-========================================
+ABOUT STYLE
 */
 
 .about-container {
@@ -237,9 +219,7 @@ body {
 }
 
 /*
-========================================
------------ PROJECTS STYLE -----------------
-========================================
+PROJECTS STYLE
 */
 
 .projects-container {
@@ -299,9 +279,7 @@ body {
 
 
 /*
-========================================
------------ FOOTER STYLE -----------------
-========================================
+FOOTER STYLE
 */
 
 footer {
@@ -310,7 +288,7 @@ footer {
 }
 
 footer p {
-  font-size: 13px;
+  font-size: 12px;
   color: #7a7a7a;
   padding: 0px 0px 0px 0px;
   margin: 0px;
@@ -321,12 +299,8 @@ footer p em {
   color: #f78b26;
 }
 
-
-
 /*
-========================================
----------- RESPONSIVE STYLE ------------
-========================================
+RESPONSIVE STYLE
 */
 
 @media (max-width: 768px){
@@ -440,12 +414,8 @@ footer p em {
   }
 }
 
-
-
 /*
-========================================
 ----------- LIGHT BOX STYLE ------------
-========================================
 */
 
 /* Preload images */
@@ -662,15 +632,6 @@ body.lb-disable-scrolling {
   opacity: 1;
 }
 
-
-/**
- * Owl Carousel v2.2.1
- * Copyright 2013-2017 David Deutsch
- * Licensed under  ()
- */
-/*
- *  Owl Carousel - Core
- */
 .owl-carousel {
   display: none;
   width: 100%;
@@ -749,7 +710,6 @@ body.lb-disable-scrolling {
   .owl-carousel.owl-rtl .owl-item {
     float: right; }
 
-/* No Js */
 .no-js .owl-carousel {
   display: block; }
 

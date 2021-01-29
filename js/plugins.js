@@ -1,6 +1,3 @@
-
-
-// Place any jQuery/helper plugins in here.
 jQuery.noConflict()(function($) {
     "use strict";
 
