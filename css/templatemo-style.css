@@ -937,6 +937,10 @@ CONTAINER STYLE
 HOME STYLE
 */
 
+ .iframe-loading {
+  background:url(/img/loading.gif) center center no-repeat;
+ }
+
  .resp-tab-content {
     padding: 0;
     overflow: hidden;
