@@ -21,7 +21,6 @@
             var opt = options, jtype = opt.type, jfit = opt.fit, jwidth = opt.width, vtabs = 'vertical', accord = 'accordion';
             var hash = window.location.hash;
             var historyApi = !!(window.history && history.replaceState);
-
             //Main function
             this.each(function () {
                 var $respTabs = $(this);
@@ -52,7 +51,6 @@
                         $respTabs.find('.resp-tabs-list').css('display', 'none');
                     }
                 }
-
                 //Assigning the h2 markup to accordion title
                 var $tabItemh2;
                 $respTabs.find('.resp-tab-content.' + options.tabidentify).before("<h2 class='resp-accordion " + options.tabidentify + "' role='tab'></h2>");
@@ -72,7 +70,6 @@
                     $tabItemh2.attr('aria-controls', options.tabidentify + '_tab_item-' + (itemCount));
                     itemCount++;
                 });
-
                 //Assigning the 'aria-controls' to Tab items
                 var count = 0,
                     $tabContent;
@@ -84,7 +81,6 @@
                         'background-color': options.inactive_bg,
                         'border-color': 'none'
                     });
-
                     //Assigning the 'aria-labelledby' attr to tab-content
                     var tabcount = 0;
                     $respTabs.find('.resp-tab-content.' + options.tabidentify).each(function () {
@@ -96,7 +92,6 @@
                     });
                     count++;
                 });
-
                 // Show correct content area
                 var tabNum = 0;
                 if (hash != '') {
@@ -108,13 +103,11 @@
                         }
                     }
                 }
-
                 //Active correct tab
                 $($respTabs.find('.resp-tab-item.' + options.tabidentify)[tabNum]).addClass('resp-tab-active').css({
                     'background-color': options.activetab_bg,
                     'border-color': options.active_border_color
                 });
-
                 //keep closed if option = 'closed' or option is 'accordion' and the element is in accordion mode
                 if (options.closed !== true && !(options.closed === 'accordion' && !$respTabsList.is(':visible')) && !(options.closed === 'tabs' && $respTabsList.is(':visible'))) {
                     $($respTabs.find('.resp-accordion.' + options.tabidentify)[tabNum]).addClass('resp-tab-active').css({
@@ -129,7 +122,6 @@
                 else {
                    // $($respTabs.find('.resp-tab-content.' + options.tabidentify)[tabNum]).addClass('resp-accordion-closed'); //removed resp-tab-content-active
                 }
-
                 //Tab Click action function
                 $respTabs.find("[role=tab]").each(function () {
 
@@ -179,7 +171,6 @@
                         }
                         //Trigger tab activation event
                         $currentTab.trigger('tabactivate', $currentTab);
-
                         //Update Browser History
                         if (historyApi) {
                             var currentHash = window.location.hash;
@@ -215,7 +206,6 @@
                     });
 
                 });
-
                 //Window resize function                   
                 $(window).resize(function () {
                     $respTabs.find('.resp-accordion-closed').removeAttr('style');
@@ -224,4 +214,3 @@
         }
     });
 })(jQuery);
-
