@@ -48,7 +48,7 @@
 	margin-bottom: 60px;
 }
 .VerticalTab.tabs_ver_6 .resp-tabs-list li {
-	margin: 5px 0px;
+	margin: 2px 0px;
 	border-radius: 10px;
 	text-align: center;
 	align-content: center;
@@ -61,7 +61,7 @@
 }
 
 .VerticalTab.tabs_ver_6 .resp-tabs-list .resp-tab-active {
-	margin: 5px 0px!important;
+	margin: 2px 0px!important;
 	color: #f78b26;
 	border: none!important;
 }
