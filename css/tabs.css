@@ -23,12 +23,12 @@
 */
 
 .resp-tabs-list {
-	padding: 3.2% 0px!important;
+	padding: 2.8% 0px!important;
 }
 
 .VerticalTab.tabs_ver_6.resp-vtabs ul.resp-tabs-list {
     float: right!important;
-    width: 24%;
+    width: 25%;
 	margin-top: 0px !important;
 }
 .VerticalTab.tabs_ver_6.resp-vtabs .resp-tabs-container {
