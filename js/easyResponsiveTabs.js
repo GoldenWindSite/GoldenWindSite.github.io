@@ -197,6 +197,9 @@
                                 if (currentHash.match(re) != null) {
                                     newHash = currentHash.replace(re, newHash);
                                 }
+                                else {
+                                    newHash = currentHash + "|" + newHash;
+                                }
                             }
                             else {
                                 newHash = '#' + newHash;
@@ -205,6 +208,7 @@
                             history.replaceState(null, null, newHash);
                         }
                     });
+
                 });
 
                 //Window resize function                   
