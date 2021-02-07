@@ -18,6 +18,7 @@ img {
 }
 body {
   font-family: "genshin", sans-serif;
+  margin: 0px;
 }
 a {
   color: #337ab7;
@@ -939,8 +940,8 @@ HOME STYLE
 
  .iframe-loading {
   background:url(/img/loading.gif) center center no-repeat;
-  background-size: 50px 50px;
-  height: 650px;
+  background-size: 40px 40px;
+  height: 680px;
  }
 
  .resp-tab-content {
@@ -948,7 +949,7 @@ HOME STYLE
     overflow: hidden;
  }
  .home-container {
-  margin-top: 3.5%;
+  margin-top: 3%;
   background-color: #fff;
   border-radius: 10px;
  }
@@ -1030,7 +1031,7 @@ ABOUT STYLE
 .about-container {
   text-align: center;
   background-color: #fff;
-  margin-top: 3.5%;
+  margin-top: 3%;
   border-radius: 10px;
 }
 
